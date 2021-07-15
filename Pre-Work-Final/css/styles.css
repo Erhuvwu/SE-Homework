@@ -1,15 +1,17 @@
-
 body{
     background-color:#ff4c68; 
     color: white;
+    font-size: 20px;
 }
 .pic{
     text-align: center;
     position: relative;
-
 }
 .hit{
     text-align: center;
+}
+.head{
+    font-size: 40px;
 }
 .top{
     text-align: center;
@@ -19,14 +21,19 @@ h2{
     font-family: Verdana, Geneva, Tahoma, sans-serif;
     color: rgb(40, 28, 58);
     text-align: center;
-    
 }
+
 h3{
     font-size: x-large;
     font-family: Verdana, Geneva, Tahoma, sans-serif;
     color: rgb(40, 28, 58);
 }
+
 #main{
     color: rgb(10, 9, 12);
     text-align: center;
+}
+.table{
+    border-color: blue;
+    border-width: 3px;
 }
