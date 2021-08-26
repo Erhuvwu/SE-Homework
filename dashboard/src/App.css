@@ -1,0 +1,74 @@
+.board{
+    width: 100vw;
+    height: 100vh;
+    border:  lightgray 1px;
+    background: rgb(233, 230, 230);
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr;
+    grid-template-rows: 1fr 1fr 1fr;
+    grid-template-areas: "sidebar review rating sentiment"
+                        " sidebar visitor visitor visitor" 
+                        "sidebar visitor visitor visitor";
+    gap:5vh;
+
+
+    /* justify-content: space-around;
+    flex-wrap: wrap;  
+    align-content: flex-end; */
+}
+
+
+.sidebar{
+    background-color: lightgray;
+    border:   grey;
+    width: 20vw;
+    height: 92vh;
+    grid-area: sidebar;
+    margin-left: 40px;
+    margin-top: 40px;
+    
+    
+   
+}
+.reviews{
+    border: grey;
+    height: 40vh;
+    width: 20vw;
+    background-color: lightgray;
+    grid-area: review;
+    margin-top: 40px ;
+}
+.rating{
+    border: grey;
+    height: 40vh;
+    width: 20vw;
+    background-color: lightgray;
+    grid-area: rating;
+    margin-top: 40px;
+}
+.sentiments{
+    /* border: 1px solid grey; */
+    height: 40vh;
+    width: 20vw;
+    background-color: lightgray;
+    grid-area: sentiment;
+    margin-top: 40px;
+    margin-right: 40px;
+}
+.visitors{
+    background-color: lightgray;
+    height: 47vh;
+    width: 60vw;  
+    grid-area: visitor;
+}
+.web{
+    border: 1px  rgb(19, 17, 17);
+    background-color: darkgray;
+    width: 50vw;
+    height: 20vh;
+    margin-left: 100px;
+    margin-top: 70px;
+}
+ul{
+    list-style: none;
+}
