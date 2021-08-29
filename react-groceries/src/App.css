@@ -1,0 +1,21 @@
+#title {
+  background-color: purple;
+  font-size: 2.5rem;
+  font-weight: bold;
+  text-align: center;
+}
+.goods-container, react.form-container{
+  display: flex;
+  justify-content: space-around;
+}
+#form {
+  background-color: rgb(121, 72, 72);
+  margin: 1%;
+  padding: 1%;
+  display: flex;
+  flex-direction: column;
+
+}
+.title1 {
+  background-color: green;
+}
